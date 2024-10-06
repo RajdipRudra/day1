@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://media.baamboozle.com/uploads/images/176438/1676632222_12627_gif-url.gif");
+    /* size: 200px 200px; */
+    background-size: 300px;
+    background-color:blanchedalmond;
+    font-family: monospace;
+    font-size: 1rem;
+
+
+}
+.image{
+    width: 1000px;
+    display: flex;
+    /* border: 2px solid black; */
+    align-self:center;
+    justify-content:space-between;
+    rotate:29deg;
+}
+.kitty01{
+    rotate: -90deg;
+
+}
+.headline{
+    margin: 0px auto;
+    /* border: 2px solid; */
+    position: absolute;
+    /* justify-self: baseline; */
+    /* align-items: baseline; */
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav>a{
+    color: rgb(0, 233, 250);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100px ;
+    border-radius: 2px;
+    background-color: brown;
+    padding: 3px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.nav>a:hover{
+    color:blanchedalmond;
+    background-color: rgb(66, 14, 14);
+}
+
+.forms{
+    background-color:rgba(255, 205, 213, 0.932);
+    margin: 18% auto;
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    /* margin: 50px; */
+    border: none;
+    border-radius: 5rem;
+    padding: 5rem;
+    box-shadow:0px 0px  6rem rgba(176, 3, 245, 0.2);
+
+}
+.forms>span>input,.forms>span>span>select,.forms>span>span>input{
+    margin: 1%;
+    border-color: palevioletred;
+    border-radius: 0.5rem;
+    width: 100%;
+    
+}
+.checkboc{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:space-between;
+    
+    /* align-self: self-end; */
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* width: 150%; */
+}
+
+
+
+.forms:hover{
+    transition: ease-in-out;
+    
+    
+    
+
+}
+input,select,option{
+
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: none !important;
+    padding: .5rem;
+}
+input[type="file"]{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-weight: bold;
+}
+input[type="button"]:hover,input:hover, select:hover, option:hover{
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+    
+
+}
+
