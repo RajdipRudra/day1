@@ -113,3 +113,30 @@ input[type="button"]:hover,input:hover, select:hover, option:hover{
 
 }
 
+#navv{
+    margin: 0% auto;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    padding: 9px;
+    justify-content: space-between;
+}
+
+#imgg, #imgg>img{
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+    width: 65%;
+    height: 100%;
+    object-fit:fill;
+    /* border: .5rem solid white; */
+    box-shadow:0px 0px  6rem rgba(4, 1, 197, 0.2);
+    
+}
+
+.theclass{
+    background-image: url("megamind-no-bitches-meme-3264x3264-v0-gb5bw6safuu81.webp");
+    background-size: 100px;
+    
+}
