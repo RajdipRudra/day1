@@ -17,7 +17,8 @@ body{
     rotate:29deg;
 }
 .kitty01{
-    rotate: -90deg;
+    rotate: -70deg;
+    width: 28%;
 
 }
 .headline{
@@ -136,7 +137,7 @@ input[type="button"]:hover,input:hover, select:hover, option:hover{
 }
 
 .theclass{
-    background-image: url("megamind-no-bitches-meme-3264x3264-v0-gb5bw6safuu81.webp");
-    background-size: 100px;
+    background-image: url("megamind-no-bitches-meme-3264x3264-v0-gb5bw6safuu81.webp")!important;
+    background-size: 100px !important;
     
 }
